@@ -10,14 +10,14 @@
     <!-- Font Awesome Cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<script src="https://cdn.tailwindcss.com"></script>
-<!-- Fonts -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
-<style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <style>
     .adlam-display-regular {
-  font-family: "ADLaM Display", serif;
+    font-family: "ADLaM Display", serif;
   
   
   font-style: normal;
@@ -28,10 +28,12 @@
     <title>Document</title>
 </head>
 <body class="adlam-display-regular bg-white ">
+    
     <div class="bg-red-100 px-10 py-2 lg:px-20  ">
    <nav class="flex justify-between items-center  ">
     <div class="flex justify-between items-center">
-    <img src="Assignment_03_Category_0001/c1-assets/logo-header.png" alt="Logo">
+        <!-- animation added -->
+    <img class="animate-spin" src="Assignment_03_Category_0001/c1-assets/logo-header.png" alt="Logo">
     <div class="hidden text-lg lg:block">
         Browse<span class="text-yellow-400">4</span>Pets
     </div>
@@ -56,7 +58,7 @@
         <i class="fa fa-search"></i>
         <i class="fa-regular fa-bell"></i>
         <button class=" outline-2 outline-yellow-500 rounded py-1 px-2 ">Login</button>
-        <button class="bg-yellow-400  rounded py-1 px-2">Register</button>
+        <button class="bg-yellow-400  rounded py-1 px-2 animate-bounce">Register</button>
         
     </div>
     <div class="lg:hidden">
@@ -81,7 +83,7 @@
             <br>our furry friends. Shop now and make tails wag with you!
         </div>
         <div>
-        <button class="bg-yellow-400 text-2xl rounded px-2 py-1">Find a pet</button>
+        <button class="bg-yellow-400 text-2xl rounded px-2 py-1 animate-bounce">Find a pet</button>
         </div>
      </div>
     </div>
@@ -95,7 +97,7 @@
         <div class="text-2xl lg:text-3xl">Browse By Categories</div>
         <div class="grid grid-cols-2 gap-3 lg:grid-cols-6 lg:gap-5 mt-10 lg:mt-20 ">
             
-            <div class=" w-full bg-amber-200 rounded-xl flex  flex-col gap-5">
+            <div class=" w-full bg-amber-200 rounded-xl flex  flex-col gap-5 animate-pulse">
                 <div class="mx-auto mt-10 p-6 border-2 bg-white rounded-full">
                     <img  src="Assignment_03_Category_0001/c1-assets/dog-cartoon.png" alt="">
                 </div>
@@ -110,7 +112,7 @@
             </div>
 
 
-            <div class="w-full bg-amber-200 rounded-xl flex  flex-col gap-5">
+            <div class="w-full bg-amber-200 rounded-xl flex  flex-col gap-5 ">
                 <div class="mx-auto mt-10 p-6 border-2 bg-white rounded-full">
                     <img  src="Assignment_03_Category_0001/c1-assets/fish-cartoon.png" alt="">
                 </div>
@@ -124,7 +126,7 @@
                 
             </div>
 
-            <div class="w-full bg-amber-200 rounded-xl flex  flex-col gap-5">
+            <div class="w-full bg-amber-200 rounded-xl flex  flex-col gap-5 animate-pulse">
                 <div class="mx-auto mt-10 p-6 border-2 bg-white rounded-full">
                     <img  src="Assignment_03_Category_0001/c1-assets/cat-cartoon.png" alt="">
                 </div>
@@ -151,7 +153,7 @@
 
                 
             </div>
-            <div class="w-full bg-amber-200 rounded-xl flex  flex-col gap-5">
+            <div class="w-full bg-amber-200 rounded-xl flex  flex-col gap-5 animate-pulse">
                 <div class="mx-auto mt-10 p-6 border-2 bg-white rounded-full">
                     <img  src="Assignment_03_Category_0001/c1-assets/mouse-cartoon.png" alt="">
                 </div>
@@ -248,7 +250,7 @@
                     <i class="fa-solid fa-star text-yellow-500"></i>
                     4.5
                 </div>
-                <div class="text-base">
+                <div class= "text-base">
                     Pet Bed
                 </div>
                 <div>$39.99</div>
@@ -393,6 +395,72 @@
 
 
      </div>
+     <!-- Customer Reveiw the Challenge Section -->
+      <div class="lg:mx-20 sm:mx-10 mx-5  mt-20 mb-10  ">
+        <h1 class="lg:text-3xl text-2xl">Our Customer Feedback</h1>
+        
+        <div class=" lg:flex gap-5  ">
+        <div class="mx-auto mt-10 p-6 border-2 bg-white flex flex-col justify-center ">
+               
+           <div class="text-center text-2xl">
+                - Elun Musk -
+            </div> 
+            <div class=" mb-10 text-center">
+                <br>
+                Sturdy, comfy, and great for scratching! Keeps cats entertained and furniture safe.<br> Some shedding, but worth it. 🐱✨
+            </div>
+            <div class="mx-auto">
+            
+            <i class="fa-solid fa-star text-yellow-500"></i><i class="fa-solid fa-star text-yellow-500"></i><i class="fa-solid fa-star text-yellow-500"></i><i class="fa-solid fa-star text-yellow-500"></i><i class="fa-solid fa-star text-yellow-500 "></i>
+       
+            </div>
+
+            
+        </div>
+        <div class="mx-auto mt-10 p-6 border-2 bg-white flex flex-col justify-center ">
+               
+            <div class="text-center text-2xl">
+                 - Jhankar Mahbub -
+             </div> 
+             <div class=" mb-10 text-center">
+                 <br>
+                 Best of the best. My pet enjoyed their dry food box.<br> Will Definately order again. 🐱✨
+             </div>
+             <div class="mx-auto">
+             
+             <i class="fa-solid fa-star text-yellow-500"></i><i class="fa-solid fa-star text-yellow-500"></i><i class="fa-solid fa-star text-yellow-500"></i><i class="fa-solid fa-star text-yellow-500"></i><i class="fa-solid fa-star text-yellow-500 "></i>
+        
+             </div>
+ 
+             
+         </div>
+         <div class="mx-auto mt-10 p-6 border-2 bg-white flex flex-col justify-center ">
+               
+            <div class="text-center text-2xl">
+                 - Mehadi Hasan -
+             </div> 
+             <div class=" mb-10 text-center">
+                 <br>
+                 One of the safest and trusted brand of pet supplies.<br> i love their service and it worth it. 🐱✨
+             </div>
+             <div class="mx-auto">
+             
+             <i class="fa-solid fa-star text-yellow-500"></i><i class="fa-solid fa-star text-yellow-500"></i><i class="fa-solid fa-star text-yellow-500"></i><i class="fa-solid fa-star text-yellow-500"></i><i class="fa-solid fa-star text-yellow-500 "></i>
+        
+             </div>
+ 
+             
+         </div>
+
+      </div>
+     
+
+   </div>
+      
+
+      </div>
+    
+     
      
 
     
@@ -444,14 +512,14 @@
 
       </div>
       <div class="text-center mb-2 lg:text-left">
-          <h1>Get Pawsome News!</h1>
-              <P>Exclusive Training tips, tricks, product deals and more </P>
+          <h1 class="text-2xl">Get Pawsome News!</h1>
+              <P class="text-lg">Exclusive Training tips, tricks, product deals and more </P>
               <br>
               <div class="flex flex-col gap-3 mb-3 lg:p-0 p-5">
               <input class="Border-1 bg-white rounded  lg:w-3/4 w-full h-10  " type="text" placeholder="  Enter email..">
               
           </div>
-          <button class="bg-yellow-400   lg:mr-auto mx-auto rounded  py-1 px-2">Subscribe</button>
+          <button class="bg-yellow-400  lg:mr-auto mx-auto rounded  py-1 px-2">Subscribe</button>
       </div>
     </div>
   </div>
